@@ -21,7 +21,7 @@ Hi, we're SESS (Seneca Engineering Student Society). We're here to make students
 ## Materials 
 ESP8266 (any ESP wifi module is fine) <br />
 
-![esp8266](https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/695/ESP8266-DEVKITC-02D-F-VIEW-B.jpg)
+![esp8266](https://raw.githubusercontent.com/kliuengineering/Vex24Q2_v4/main/pics/esp8266.png)
 
 Vex Robot (you can borrow your school for this) <br />
 ![vex](https://i.pinimg.com/564x/db/2e/6e/db2e6e4c0caa701cbc1bda5f37cce8d4.jpg)
