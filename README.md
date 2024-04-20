@@ -23,18 +23,16 @@ Hi, we're SESS (Seneca Engineering Student Society). We're here to make students
 
 ## Materials
 
-<div>
+<div style="display: flex; flex-direction: row; justify-content: center; gap:20px;">
     <div>
-        <h2>ESP8266<a href="https://www.digikey.ca/en/products/detail/espressif-systems/ESP8266-DEVKITC-02D-F/9649768">here to see</a></h2>
+        <p>ESP8266<a href="https://www.digikey.ca/en/products/detail/espressif-systems/ESP8266-DEVKITC-02D-F/9649768">here to see</a></p>
         <img src="https://raw.githubusercontent.com/kliuengineering/Vex24Q2_v4/main/pics/esp8266.png" width="20%">
     </div>
     <div>
-        <h2>VEX robot</h2>
+        <p>VEX robot</p>
         <img src="https://raw.githubusercontent.com/kliuengineering/Vex24Q2_v4/main/pics/vex.png" width="20%">
     </div>
 </div>
-
-**Vex Robot** <br />
 
 ## How it works
 
