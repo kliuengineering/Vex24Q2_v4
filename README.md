@@ -24,7 +24,7 @@ ESP8266 (any ESP wifi module is fine) <br />
 ![esp8266](https://raw.githubusercontent.com/kliuengineering/Vex24Q2_v4/main/pics/esp8266.png)
 
 Vex Robot (you can borrow your school for this) <br />
-![vex](https://i.pinimg.com/564x/db/2e/6e/db2e6e4c0caa701cbc1bda5f37cce8d4.jpg)
+![vex](https://raw.githubusercontent.com/kliuengineering/Vex24Q2_v4/main/pics/vex.png)
 
 ## How it works
 This vex is equipped with a wifi module called ESP8266 (you can use any ESP wifi module), receiving signals from the server. The server watches people's body gestures and these gestures are sent to a remote computer vision model, which will send back numerical values that can only be understood by the vex. Afterwards, ESP8266 takes these numerical data from the server to instruct the vex to move.
