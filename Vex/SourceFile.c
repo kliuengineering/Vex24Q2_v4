@@ -48,10 +48,6 @@ void Halt()
 	wait1Msec(HALT);
 }
 
-
-
-
-
 task main()
 {
 	int recvChar;
@@ -109,22 +105,5 @@ task main()
 			}
 			break;
 		}
-		/*
-		if(recvChar == -1) {
-			wait1Msec(2); // Don't want to consume too much CPU time. Waiting eliminates CPU consumption for this task.
-			continue;
-		}
-		*/
-
-
-
-
-
-
-
-
-
-
-		//delay(500);
 	}
 }

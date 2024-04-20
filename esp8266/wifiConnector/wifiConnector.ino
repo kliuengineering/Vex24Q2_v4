@@ -13,7 +13,6 @@ char replyPacket[] = "Hi there! Got the message :-)";  // A reply string to send
 
 void setup() {
   Serial.begin(115200);
-
   // Set up the ESP32 as an Access Point
   WiFi.begin(ssid, password);
 

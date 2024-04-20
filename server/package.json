@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/kliuengineering/Vex24Q2_v2#readme",
   "dependencies": {
-    "express": "^4.19.1"
+    "express": "^4.19.1",
+    "nodemon": "^3.1.0"
   }
 }
