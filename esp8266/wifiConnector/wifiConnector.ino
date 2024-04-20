@@ -3,8 +3,8 @@
 #include <WiFiUDP.h>
 #include <cstring>
 
-const char *ssid = "Linksys00321";
-const char *password = "fxjz26padu";
+const char *ssid = "Your Wifi Name";
+const char *password = "You Wifi Password";
 
 WiFiUDP udp;
 unsigned int port = 4210;                              // Local port to listen on
