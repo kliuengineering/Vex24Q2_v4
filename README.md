@@ -39,7 +39,9 @@ To install the compiler for ESP8266:
 1. Install the Arduino IDE.
 2. In Arduino, go to <code>Arduino IDE</code> > <code>Settings</code>. And then add this URL to the <code>Additional boards manager URLs</code>: <code>https://raw.githubusercontent.com/SpacehuhnTech/arduino/main/package_spacehuhn_index.json</code> and hit OK to save it.
 3. Go to <code>Tools</code> > <code>Board</code> > <code>Boards Manager</code>. And then find and install <code>Deauther ESP8266 Boards</code>.
-4. In this repository, go to <code>esp8266</code> > <code>wifiConnector</code>. And then download <code>wifiConnector.ino</code>.
+4. Go to <code>Tools</code> > <code>Board</code> > <code>Deauther ESP8266 Boards</code> > <code>Node MCU</code>.
+5. Go to <code>Tools</code> > <code>Upload Speed</code> >  <code>115200</code>.
+6. In this repository, go to <code>esp8266</code> > <code>wifiConnector</code>. And then download <code>wifiConnector.ino</code>.
 
 To get the IP address of the ESP8266:
 1. Connect your laptop with the ESP.
@@ -47,7 +49,7 @@ To get the IP address of the ESP8266:
 3. Verify and download wifiConnector.ino to the ESP
 4. Keep the ESP connected with your laptop (we want to see the IP address to log out in the your screen).
 5. Press <code>RST</code> (reset) button (better do multiple times)
-Note: if you see one IP address and then you see another different one, then the first one might be your computer's IP address and the second one might be your ESP's IP address, or vice versa. You should check your wifi IP address. It should be somewhat similar to the wifi IP address that you are connecting to.
+Note: If you see one IP address and then you see another different one, then the first one might be your computer's IP address and the second one might be your ESP's IP address, or vice versa. You should check your wifi IP address, which should be somewhat similar to the wifi IP address that you are connecting to.
 
 ### Vex Robot
 
