@@ -36,7 +36,7 @@ This vex is equipped with a wifi module called ESP8266 (you can use any ESP wifi
 
 ### Wifi Module
 To install the compiler for ESP8266:
-1. Install the Arduino IDE.
+1. Install the [Arduino IDE](https://www.arduino.cc/en/software).
 2. In Arduino, go to <code>Arduino IDE</code> > <code>Settings</code>. And then add this URL to the <code>Additional boards manager URLs</code>: <code>https://raw.githubusercontent.com/SpacehuhnTech/arduino/main/package_spacehuhn_index.json</code> and hit OK to save it.
 3. Go to <code>Tools</code> > <code>Board</code> > <code>Boards Manager</code>. And then find and install <code>Deauther ESP8266 Boards</code>.
 4. Go to <code>Tools</code> > <code>Board</code> > <code>Deauther ESP8266 Boards</code> > <code>Node MCU</code>.
@@ -52,6 +52,26 @@ To get the IP address of the ESP8266:
 Note: If you see one IP address and then you see another different one, then the first one might be your computer's IP address and the second one might be your ESP's IP address, or vice versa. You should check your wifi IP address, which should be somewhat similar to the wifi IP address that you are connecting to.
 
 ### Vex Robot
+To connect ESP with VEX, please see the picture below:
+<img src="https://raw.githubusercontent.com/kliuengineering/Vex24Q2_v4/main/pics/pinsconnecting.png" width="50%">
+</br>
+
+To set up VEX:
+1. Install [ROBOTC](https://www.robotc.net/).
+2. Go to <code>Robot</code> > <code>Platform type</code> > <code>Vex 2.0 Cortext</code>.
+3. Go to <code>Window</code> > <code>Menu level</code> > <code>Super User</code>.
+5. Set up wireless mode, please watch this [video](https://www.youtube.com/watch?v=uIAUPRrcDmk) (when a new program is loaded to VEX, we have to reboot it again. Watch this [video](https://www.youtube.com/watch?v=uIAUPRrcDmk))
+6. Make sure the pins on your VEX connected to the correct motors and sensors. Our robot pins look like this:
+```
+#pragma config(UART_Usage, UART1, uartUserControl, baudRate115200, IOPins, None, None)
+#pragma config(Sensor, dgtl8,  sonarSensor,    sensorSONAR_cm)
+#pragma config(Motor,  port1,           rightmotor,    tmotorVex393_HBridge, openLoop)
+#pragma config(Motor,  port10,          leftmotor,     tmotorVex393_HBridge, openLoop)
+```
+5. Connect VEX with your computer
+6. In this repository, go to <code>Vex</code> and then download <code>SourceFile.c</code>
+7. Open <code>SourceFile.c</code> on ROBOTC and hit <code>Download to Robot</code>
+
 
 ### Server
 
