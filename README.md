@@ -53,24 +53,24 @@ Note: If you see one IP address and then you see another different one, then the
 
 ### Vex Robot
 To connect ESP with VEX, please see the picture below:
-<img src="https://raw.githubusercontent.com/kliuengineering/Vex24Q2_v4/main/pics/pinsconnecting.png" width="50%">
+<img src="https://raw.githubusercontent.com/kliuengineering/Vex24Q2_v4/main/pics/pinsconnecting.jpg" width="50%">
 </br>
 
 To set up VEX:
 1. Install [ROBOTC](https://www.robotc.net/).
 2. Go to <code>Robot</code> > <code>Platform type</code> > <code>Vex 2.0 Cortext</code>.
 3. Go to <code>Window</code> > <code>Menu level</code> > <code>Super User</code>.
-5. Set up wireless mode, please watch this [video](https://www.youtube.com/watch?v=uIAUPRrcDmk) (when a new program is loaded to VEX, we have to reboot it again. Watch this [video](https://www.youtube.com/watch?v=uIAUPRrcDmk))
-6. Make sure the pins on your VEX connected to the correct motors and sensors. Our robot pins look like this:
+4. Set up wireless mode, please watch this [video](https://www.youtube.com/watch?v=uIAUPRrcDmk) (when a new program is loaded to VEX, we have to reboot it again. Watch this [video](https://www.youtube.com/watch?v=uIAUPRrcDmk))
+5. Make sure the pins on your VEX connected to the correct motors and sensors. Our robot pins look like this:
 ```
 #pragma config(UART_Usage, UART1, uartUserControl, baudRate115200, IOPins, None, None)
 #pragma config(Sensor, dgtl8,  sonarSensor,    sensorSONAR_cm)
 #pragma config(Motor,  port1,           rightmotor,    tmotorVex393_HBridge, openLoop)
 #pragma config(Motor,  port10,          leftmotor,     tmotorVex393_HBridge, openLoop)
 ```
-5. Connect VEX with your computer
-6. In this repository, go to <code>Vex</code> and then download <code>SourceFile.c</code>
-7. Open <code>SourceFile.c</code> on ROBOTC and hit <code>Download to Robot</code>
+6. Connect VEX with your computer
+7. In this repository, go to <code>Vex</code> and then download <code>SourceFile.c</code>
+8. Open <code>SourceFile.c</code> on ROBOTC and hit <code>Download to Robot</code>
 
 
 ### Server
