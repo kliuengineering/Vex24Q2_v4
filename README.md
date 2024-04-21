@@ -52,7 +52,7 @@ To get the IP address of the ESP8266:
 Note: If you see one IP address and then you see another different one, then the first one might be your computer's IP address and the second one might be your ESP's IP address, or vice versa. You should check your wifi IP address, which should be somewhat similar to the wifi IP address that you are connecting to.
 
 ### Vex Robot
-To connect ESP with VEX, please see the picture below:
+To connect ESP with VEX's uart port, please see the picture below: </br>
 <img src="https://raw.githubusercontent.com/kliuengineering/Vex24Q2_v4/main/pics/pinsconnecting.jpg" width="50%">
 </br>
 
