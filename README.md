@@ -34,7 +34,7 @@ Hi, we're SESS (Seneca Engineering Student Society). We're here to make students
 
 ## How it works
 
-This vex is equipped with a wifi module called ESP8266 (you can use any ESP wifi module), receiving signals from the server. The server watches people's body gestures and these gestures are sent to a remote computer vision model, which will send back numerical values that can only be understood by the vex. Afterwards, ESP8266 takes these numerical data from the server to instruct the vex to move.
+This vex is equipped with a wifi module called ESP8266 (you can use any ESP wifi module), receiving signals from the server. The server watches people's body gestures and these gestures are sent to a remote computer vision model, which will send back arm angles that are then converted to numerical data. These numerical data will be sent and understood by the vex. Afterwards, ESP8266 takes these numerical data from the server to instruct the vex to move.
 
 <img src="https://raw.githubusercontent.com/kliuengineering/Vex24Q2_v4/main/pics/overview.jpg" width="100%">
 
