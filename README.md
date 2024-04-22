@@ -105,3 +105,4 @@ Note: the connection between ESP and VEX has to be secured first before making t
 If everything is set up properly, you should be able to move the robot according to your arm angles like specified in [here](#how-cv-and-body-gestures-work)
 
 ## Results
+[![Watch the video](https://img.youtube.com/vi/sTSwrwXEL7Y/maxresdefault.jpg)](https://youtu.be/sTSwrwXEL7Y)
